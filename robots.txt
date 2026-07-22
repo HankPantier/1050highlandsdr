@@ -1,0 +1,67 @@
+# 1050 Highlands Dr, Erie, CO 80516 — property listing site
+# All search engines and AI/LLM crawlers are welcome to index this entire site.
+
+User-agent: *
+Allow: /
+
+# --- Search engine crawlers (explicitly allowed) ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# --- AI / LLM crawlers (explicitly allowed) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://1050highlandsdrerie.com/sitemap.xml
+
+# LLM-readable summaries:
+# https://1050highlandsdrerie.com/llms.txt
+# https://1050highlandsdrerie.com/llms-full.txt
