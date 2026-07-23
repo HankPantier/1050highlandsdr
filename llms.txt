@@ -18,3 +18,4 @@ Key facts: price $625,000 · 3 bed / 3 bath (2 full, 1 half) · 2,366 sq ft · b
 
 - [Full site content for LLMs](https://1050highlandsdrerie.com/llms-full.txt): Complete text content of every page in one file.
 - [Zillow listing](https://www.zillow.com/homedetails/1050-Highlands-Dr-Erie-CO-80516/456816547_zpid/): Third-party listing page.
+- [Video tour (YouTube)](https://www.youtube.com/watch?v=qBzEjIeLmyw): Virtual walkthrough of the home.
