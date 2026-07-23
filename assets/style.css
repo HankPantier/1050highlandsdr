@@ -231,3 +231,28 @@ a.card{text-decoration:none;color:inherit;display:block}
 .grade{background:var(--sage-wash);color:var(--sage-ink);font-family:var(--serif);font-weight:600;font-size:16px;padding:4px 12px}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--espresso);color:#fff;padding:12px 18px;z-index:300}
 .skip-link:focus{left:12px;top:12px}
+
+/* --- responsive fixes ------------------------------------------ */
+/* Full-width photo banners: ratio only, no min-height (min-height +
+   aspect-ratio forces width overflow on small screens) */
+.photo-banner{aspect-ratio:16/7}
+@media (max-width:860px){
+  .photo-banner{aspect-ratio:4/3}
+}
+/* Proximity map: stack to one column on small screens */
+@media (max-width:760px){
+  .proxmap{grid-template-columns:1fr !important}
+  .proxmap-map{min-height:0 !important;aspect-ratio:820/560}
+  .proxmap-side{border-left:0 !important;border-top:1px solid var(--line-soft)}
+}
+/* Form grids: let fields shrink (date/time inputs have wide intrinsic
+   minimums), and stack to one column on narrow phones */
+.field-label,.input{min-width:0}
+@media (max-width:480px){
+  #showing-form > div{grid-template-columns:1fr !important}
+  #calc div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr !important}
+}
+/* Long arrow-links may wrap on small phones */
+@media (max-width:480px){
+  .link-arrow{white-space:normal}
+}

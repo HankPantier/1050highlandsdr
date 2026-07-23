@@ -159,7 +159,7 @@
   </section>
 
   <section class="wrap section-tight">
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:22px">
       <div class="card reveal" style="border-top:3px solid var(--sage);padding:28px 26px;display:flex;flex-direction:column">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
           <div class="eyebrow sage" style="font-size:10.5px">Grades PK–5</div>
@@ -198,7 +198,7 @@
 
   <!-- WALK PHOTO -->
   <section class="wrap section-tight">
-    <figure class="photo clickable reveal" style="aspect-ratio:16/7;min-height:280px">
+    <figure class="photo clickable photo-banner reveal">
       <img src="images/aerial-pool-fields.webp" alt="Aerial view showing the neighborhood school, sports fields and pool complex near the home" loading="lazy">
       <div class="scrim"></div>
       <figcaption>
@@ -212,7 +212,7 @@
   <section class="wrap section-tight" style="padding-bottom:clamp(52px,7vw,84px)">
     <h2 class="h-sect reveal" style="font-size:clamp(23px,3vw,32px);margin-bottom:20px">See them on the map</h2>
     <div class="reveal d1"><div style="background:#fff;border:1px solid var(--line);overflow:hidden;display:grid;grid-template-columns:minmax(300px,1.55fr) minmax(240px,1fr)" class="proxmap">
-  <div style="position:relative;background:#F2EDE3;min-height:400px">
+  <div class="proxmap-map" style="position:relative;background:#F2EDE3;min-height:400px">
     <svg viewBox="0 0 820 560" style="display:block;width:100%;height:100%" role="img" aria-label="Schematic map showing schools, Old Town Erie and the community center around 1050 Highlands Dr">
       <defs><radialGradient id="pmglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#F7F2E9"/><stop offset="100%" stop-color="#E9E1D2"/></radialGradient></defs>
       <rect x="0" y="0" width="820" height="560" fill="url(#pmglow)"/>
@@ -263,7 +263,7 @@
       </g>
     </svg>
   </div>
-  <div style="padding:28px 26px;border-left:1px solid var(--line-soft)">
+  <div class="proxmap-side" style="padding:28px 26px;border-left:1px solid var(--line-soft)">
     <div class="eyebrow" style="font-size:10.5px">Location</div>
     <div class="h-card" style="font-size:24px;margin-top:10px">Close to everything</div>
     <p style="font-size:13.5px;color:var(--ink-soft);margin:8px 0 18px;line-height:1.5">The elementary is a walk away; the other schools, downtown, and the rec center all sit within about two miles.</p>
